@@ -1,4 +1,5 @@
 using System;
+
 using System.Collections.Generic;
 
 class TimeConverter
@@ -8,11 +9,11 @@ class TimeConverter
 
     public static void Main(string[] args)
     {
-        // Program runs unless the user chooses to stop
-        while (true)
+       
+        while (true) // Program runs unless the user chooses to stop
         {
-            // Reads the input from the user
-            int hours = ReadNumber("Enter hours: ");
+            
+            int hours = ReadNumber("Enter hours: ");// Reads the input from the user
             int minutes = ReadNumber("Enter minutes: ");
 
             // To check whether the input is valid or not
@@ -60,4 +61,5 @@ class TimeConverter
         }
     }
 }
+
 
